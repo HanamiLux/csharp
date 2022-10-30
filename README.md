@@ -1,2 +1,3 @@
-# Dub starik
--fhigegdifugduifg
+# Practical work №1
+## 4 hours of meth
+Calculator
