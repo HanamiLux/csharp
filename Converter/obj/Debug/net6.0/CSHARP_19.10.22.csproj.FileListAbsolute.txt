@@ -1,0 +1,17 @@
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\bin\Debug\net6.0\CSHARP_19.10.22.exe
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\bin\Debug\net6.0\CSHARP_19.10.22.deps.json
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\bin\Debug\net6.0\CSHARP_19.10.22.runtimeconfig.json
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\bin\Debug\net6.0\CSHARP_19.10.22.dll
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\bin\Debug\net6.0\CSHARP_19.10.22.pdb
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\obj\Debug\net6.0\CSHARP_19.10.22.csproj.AssemblyReference.cache
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\obj\Debug\net6.0\CSHARP_19.10.22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\obj\Debug\net6.0\CSHARP_19.10.22.AssemblyInfoInputs.cache
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\obj\Debug\net6.0\CSHARP_19.10.22.AssemblyInfo.cs
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\obj\Debug\net6.0\CSHARP_19.10.22.csproj.CoreCompileInputs.cache
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\obj\Debug\net6.0\CSHARP_19.10.22.dll
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\obj\Debug\net6.0\refint\CSHARP_19.10.22.dll
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\obj\Debug\net6.0\CSHARP_19.10.22.pdb
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\obj\Debug\net6.0\CSHARP_19.10.22.genruntimeconfig.cache
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\obj\Debug\net6.0\ref\CSHARP_19.10.22.dll
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\oxotn\source\repos\CSHARP_19.10.22\obj\Debug\net6.0\CSHARP_19.10.22.csproj.CopyComplete
