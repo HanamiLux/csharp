@@ -1,0 +1,17 @@
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\bin\Debug\net6.0\TypingTest.exe
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\bin\Debug\net6.0\TypingTest.deps.json
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\bin\Debug\net6.0\TypingTest.runtimeconfig.json
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\bin\Debug\net6.0\TypingTest.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\bin\Debug\net6.0\TypingTest.pdb
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\obj\Debug\net6.0\TypingTest.csproj.AssemblyReference.cache
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\obj\Debug\net6.0\TypingTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\obj\Debug\net6.0\TypingTest.AssemblyInfoInputs.cache
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\obj\Debug\net6.0\TypingTest.AssemblyInfo.cs
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\obj\Debug\net6.0\TypingTest.csproj.CoreCompileInputs.cache
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\obj\Debug\net6.0\TypingTest.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\obj\Debug\net6.0\refint\TypingTest.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\obj\Debug\net6.0\TypingTest.pdb
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\obj\Debug\net6.0\TypingTest.genruntimeconfig.cache
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\obj\Debug\net6.0\ref\TypingTest.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw8] Typing test\TypingTest\obj\Debug\net6.0\TypingTest.csproj.CopyComplete

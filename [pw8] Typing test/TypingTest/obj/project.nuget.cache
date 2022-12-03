@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ILDqky0ww9DAHWsFq9UNGF3QS6TCW56O/P5M16QXRyZsGoxdPp33u5s5l9x6tCd5FpSEVzoSRyBBHav8kXzzaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oxotn\\OneDrive\\Рабочий стол\\Отчёты\\CSharp all branches\\[pw8] Typing test\\TypingTest\\TypingTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oxotn\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
