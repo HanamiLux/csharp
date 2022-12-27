@@ -1,0 +1,17 @@
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\bin\Debug\net6.0\NEGROZ.exe
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\bin\Debug\net6.0\NEGROZ.deps.json
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\bin\Debug\net6.0\NEGROZ.runtimeconfig.json
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\bin\Debug\net6.0\NEGROZ.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\bin\Debug\net6.0\NEGROZ.pdb
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\obj\Debug\net6.0\NEGROZ.csproj.AssemblyReference.cache
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\obj\Debug\net6.0\NEGROZ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\obj\Debug\net6.0\NEGROZ.AssemblyInfoInputs.cache
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\obj\Debug\net6.0\NEGROZ.AssemblyInfo.cs
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\obj\Debug\net6.0\NEGROZ.csproj.CoreCompileInputs.cache
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\obj\Debug\net6.0\NEGROZ.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\obj\Debug\net6.0\refint\NEGROZ.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\obj\Debug\net6.0\NEGROZ.pdb
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\obj\Debug\net6.0\NEGROZ.genruntimeconfig.cache
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\obj\Debug\net6.0\ref\NEGROZ.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\CSharp all branches\[pw10] Black market\NEGROZ\obj\Debug\net6.0\NEGROZ.csproj.CopyComplete
