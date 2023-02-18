@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5oUukVeKf3EEFRFq5xMPDmKTM5TA/XSYqf3eynUZfTuOr33QRylES0josNn0h5uU64cuNg1RM6bSCtZNk6npmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oxotn\\OneDrive\\Рабочий стол\\Отчёты\\2 курс 2 семестр\\C#\\Diary\\Diary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oxotn\\.nuget\\packages\\materialdesigncolors\\2.1.1\\materialdesigncolors.2.1.1.nupkg.sha512",
+    "C:\\Users\\oxotn\\.nuget\\packages\\materialdesignthemes\\4.7.1\\materialdesignthemes.4.7.1.nupkg.sha512",
+    "C:\\Users\\oxotn\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\oxotn\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
