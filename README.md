@@ -1,3 +1,3 @@
 # Practical work №WPF4
-## 6h of money counting
+## 6H of money counting
 Now I'm like Scrooge Mcduck yoooo
