@@ -1,0 +1,35 @@
+﻿<Page x:Class="IS5.SavedChecksPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:IS5"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SavedChecksPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.15*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition />
+            <RowDefinition Height="0.15*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="1.5*"/>
+        </Grid.ColumnDefinitions>
+
+        <ComboBox x:Name="checksCMB" Height="30px" materialDesign:HintAssist.Hint="Saved checks" FontSize="20px" FontFamily="Arial Black" Foreground="#fff" Background="Transparent" Grid.ColumnSpan="2" SelectionChanged="checksCMB_SelectionChanged"/>
+        <Label Content="About check:" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="28px" FontFamily="Stencil" Foreground="#fff" Grid.Row="1"/>
+        <StackPanel Grid.Row="2">
+            <Label x:Name="employeeLabel" Content="Employee:" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="16px" FontFamily="Stencil" Foreground="#fff" Grid.Row="1" Margin="0 20 0 0"/>
+            <Label x:Name="SumLabel" Content="Summary:" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="16px" FontFamily="Stencil" Foreground="#fff" Grid.Row="1" Margin="0, 20 0 0"/>
+            <Label x:Name="Payed" Content="Payed:" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="16px" FontFamily="Stencil" Foreground="#fff" Grid.Row="1" Margin="0 20 0 0"/>
+            <Label x:Name="timestamp" Content="Date:" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="16px" FontFamily="Stencil" Foreground="#fff" Grid.Row="1" Margin="0 20 0 0"/>
+        </StackPanel>
+        <DataGrid x:Name="checkDG" Grid.RowSpan="2" IsReadOnly="True" Background="Transparent" Foreground="#fff" FontFamily="Stencil" Grid.Column="1" Grid.Row="1"/>
+        <Button Content="Export check"  Grid.Row="3" FontSize="24px" Background="Transparent" FontFamily="Stencil" Foreground="#fff" Click="ExportCheck_Btn_Click" Grid.ColumnSpan="2"/>
+    </Grid>
+</Page>

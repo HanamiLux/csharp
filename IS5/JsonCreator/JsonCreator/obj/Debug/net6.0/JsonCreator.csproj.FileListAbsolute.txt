@@ -1,0 +1,34 @@
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\bin\Debug\net6.0\JsonCreator.exe
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\bin\Debug\net6.0\JsonCreator.deps.json
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\bin\Debug\net6.0\JsonCreator.runtimeconfig.json
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\bin\Debug\net6.0\JsonCreator.dll
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\bin\Debug\net6.0\JsonCreator.pdb
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.csproj.AssemblyReference.cache
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.AssemblyInfoInputs.cache
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.AssemblyInfo.cs
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.csproj.CoreCompileInputs.cache
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.csproj.CopyComplete
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.dll
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\obj\Debug\net6.0\refint\JsonCreator.dll
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.pdb
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.genruntimeconfig.cache
+C:\Users\kiss_\source\repos\JsonCreator\JsonCreator\obj\Debug\net6.0\ref\JsonCreator.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\bin\Debug\net6.0\JsonCreator.exe
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\bin\Debug\net6.0\JsonCreator.deps.json
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\bin\Debug\net6.0\JsonCreator.runtimeconfig.json
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\bin\Debug\net6.0\JsonCreator.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\bin\Debug\net6.0\JsonCreator.pdb
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.csproj.AssemblyReference.cache
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.AssemblyInfoInputs.cache
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.AssemblyInfo.cs
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.csproj.CoreCompileInputs.cache
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.csproj.CopyComplete
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\obj\Debug\net6.0\refint\JsonCreator.dll
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.pdb
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\obj\Debug\net6.0\JsonCreator.genruntimeconfig.cache
+C:\Users\oxotn\OneDrive\Рабочий стол\Отчёты\Practice\IS5\IS5\JsonCreator\JsonCreator\obj\Debug\net6.0\ref\JsonCreator.dll
