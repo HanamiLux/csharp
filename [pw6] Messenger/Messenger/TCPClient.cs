@@ -31,9 +31,12 @@ namespace Messenger
         public void Start()
         {
             server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            server.ConnectAsync(ip, 8888);
+            server.ConnectAsync(ip, 5225);
             if (!server.Poll(5000, SelectMode.SelectWrite))
+            {
+                server.Close();
                 throw new Exception("Chat doesn't exist");
+            }
             cts = new CancellationTokenSource();
 #region передача ника с клиента серверу
             byte[] bytes = Encoding.UTF8.GetBytes($"(*&{nickname}");
@@ -52,7 +55,7 @@ namespace Messenger
                 await server.ReceiveAsync(new ArraySegment<byte>(bytes), SocketFlags.None);
                 string message = Encoding.UTF8.GetString(bytes);
                 if (message.Substring(0, 3) != "(*&")
-                    MsgListbox.Items.Add($"「{DateTime.Now.Day}.{DateTime.Now.Month}.{DateTime.Now.Year} {DateTime.Now.TimeOfDay.ToString().Substring(0, 5)}」: {message}");
+                    MsgListbox.Items.Add($"「{DateTime.Now.Day}.{DateTime.Now.Month}.{DateTime.Now.Year} {DateTime.Now.TimeOfDay.ToString().Substring(0, 5)}」 {message}");
                 #region получение листа пользователей с сервера на клиент
                 else if (message.Substring(0, 3) == "(*&")
                 {
@@ -66,8 +69,6 @@ namespace Messenger
 
 
             }
-            byte[] leftbytes = Encoding.UTF8.GetBytes($"&*(leftChat{nickname}");
-            await server.SendAsync(new ArraySegment<byte>(leftbytes), SocketFlags.None);
             cts.Dispose();
         }
 
@@ -80,13 +81,12 @@ namespace Messenger
         }
         public void DisconnectServer(bool createMain = false)
         {
-            try 
-            {
-                server.Close();
-            } catch { }
             if(createMain)
             new MainWindow().Show();
             cts.Cancel();
+            try
+            {server.Close();}
+            catch { }
             window.Close();
         }
     }

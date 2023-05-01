@@ -27,7 +27,7 @@ namespace Messenger
         public chat_admin(string nickname)
         {
             InitializeComponent();
-            server = new TCPServer(UsersLB, this);
+            server = new TCPServer(UsersLB, LogsLB, this);
             if (!server.Start())
                 Environment.Exit(0);
             this.Show();
@@ -42,6 +42,12 @@ namespace Messenger
         }
 
         private void ExitBTN_Click(object sender, RoutedEventArgs e)
+        {
+            adminClient.SendMessage("/Disconnect");
+            adminClient.DisconnectServer();
+        }
+
+        private void WindowClosed(object sender, EventArgs e)
         {
             adminClient.SendMessage("/Disconnect");
             adminClient.DisconnectServer();

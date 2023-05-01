@@ -43,5 +43,11 @@ namespace Messenger
             client.SendMessage("/Disconnect");
             client.DisconnectServer();
         }
+
+        private void WindowClosed(object sender, EventArgs e)
+        {
+            client.SendMessage("/Disconnect");
+            client.DisconnectServer();
+        }
     }
 }
