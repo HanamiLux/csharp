@@ -1,0 +1,59 @@
+﻿<Window x:Class="Diary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:local="clr-namespace:Diary"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MinHeight="450" MinWidth="600">
+    <!--WindowState="Maximized" WindowStyle="None" ResizeMode="NoResize"  - alt+enter/F11 -->
+    <Window.Background>
+        <SolidColorBrush Color="DimGray"/>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="109*"/>
+            <RowDefinition Height="172*"/>
+            <RowDefinition Height="45*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="401*"/>
+            <ColumnDefinition Width="192*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="207*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="../Images/sakura_PNG12.png" Stretch="UniformToFill" Opacity="0.25" />
+        </Grid.Background>
+        <Button Style="{StaticResource MaterialDesignPaperSecondaryDarkButton}" Content="Notes" MinHeight="65" FontSize="26" Grid.Column="1" Command="{Binding ToAllNotesCommand}"/>
+        <Button Style="{StaticResource MaterialDesignPaperSecondaryDarkButton}" Content="Expired notes" MinHeight="65" FontSize="26" Grid.Column="3" Command="{Binding ToExpiredNotesCommand}"/>
+        <Button
+         Style="{StaticResource MaterialDesignPaperSecondaryDarkButton}"
+        Content="Remove note" Grid.Row="3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Command="{Binding RemoveCommand}"/>
+        <Button
+         Style="{StaticResource MaterialDesignPaperSecondaryDarkButton}"
+        Content="Save" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Command="{Binding SaveCommand}"/>
+        <Button
+            Style="{StaticResource MaterialDesignPaperSecondaryDarkButton}"
+            Content="Create note"  Grid.Column="1" Grid.Row="3" Margin="3,3,2,3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Command="{Binding AddCommand}"/>
+        <Border Grid.Column="1" Grid.Row="1" Opacity="0.5" BorderBrush="LightPink" BorderThickness="5" CornerRadius="50,80,50,80" Height="109" VerticalAlignment="Center" Grid.ColumnSpan="3" HorizontalAlignment="Stretch">
+            <TextBox x:Name="nameTextBox" TextWrapping="Wrap" Text="{Binding SelectedNote.name, Mode=TwoWay}"  Foreground="White" FontWeight="Black" FontSize="36" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="379"/>
+        </Border>
+        <Border Grid.Column="1" Grid.Row="2" Opacity="0.5" BorderBrush="LightPink" BorderThickness="3" CornerRadius="20,80,50,50" VerticalAlignment="Stretch" Grid.ColumnSpan="3" HorizontalAlignment="Stretch">
+            <TextBox x:Name="descriptionTextBox" TextWrapping="Wrap" Text="{Binding SelectedNote.description, Mode=TwoWay}"  Foreground="White" FontWeight="Black" FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        </Border>
+        <DatePicker x:Name="DatePicker" SelectedDate="{Binding Path=SelectedDate, Mode=TwoWay}"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" RenderTransformOrigin="0.59,0.44" Background="LightPink" Foreground="White" Opacity="0.7" FirstDayOfWeek="Monday" FontFamily="Cooper Black" FontSize="28" Text="" IsTodayHighlighted="True" >
+            <DatePicker.BlackoutDates>
+                <CalendarDateRange End=""/>
+            </DatePicker.BlackoutDates>
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectedDateChanged">
+                    <i:InvokeCommandAction Command="{Binding ChangeDateCommand}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </DatePicker>
+        <DataGrid x:Name="stackPanelB" Grid.Row="1" Grid.RowSpan="2" ItemsSource="{Binding stackPanelB}" SelectedItem="{Binding SelectedNote}" IsReadOnly="True" Opacity="0.805" />
+    </Grid>
+</Window>
